@@ -5,6 +5,7 @@ var opHelper = new OperationHelper({
     awsId:     '[YOUR AWS ID HERE]',
     awsSecret: '[YOUR AWS SECRET HERE]',
     assocId:   '[YOUR ASSOCIATE TAG HERE]',
+    endPoint:   'ecs.amazonaws.jp', // default 'ecs.amazonaws.com'
 });
 
 opHelper.execute('ItemSearch', {
